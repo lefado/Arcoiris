@@ -1,0 +1,142 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 8, 2016, 6:27:17 PM
+    Author     : mason
+*/
+
+
+#home {
+    padding-top: 120px;
+}
+
+/*HEADER*/
+.navbar-inverse {
+    background-color: #54535e;
+    border-color: #080808;
+}
+
+#navbar > ul > li{
+    margin-top: 20px;    
+    margin-left: 10px;
+}
+
+#navbar > ul > li > a{
+    font-size: 18px;
+    color: white;
+}
+
+#navbar > ul > li.active > a,#navbar > ul > li:hover > a{
+    color: blue;
+}
+
+.arco-sent{
+    margin-top: 15px;
+}
+
+#navbar > ul > li > a{
+    font-size: 20px;
+}
+
+#inicio:hover,.active > #inicio {
+    color: red !important;
+    border-bottom: red 3px solid;
+}
+
+#servicios:hover,.active > #servicios {
+    color: orange !important;
+    border-bottom: orange 3px solid;
+}
+
+#contacto:hover,.active > #contacto {
+    color: yellow !important;
+    border-bottom: yellow 3px solid;
+}
+
+#localizacion:hover,.active > #localizacion {
+    color: green !important;
+    border-bottom: green 3px solid;
+}
+
+/*SLIDER*/
+.slide{
+    /*width: 100%;*/
+    /*height: 900px;*/
+    /*position: relative;*/
+    margin-top: 120px;
+    height:80vh;
+}
+
+.carousel img{
+    height:80vh !important;
+    /*height: 550px !important;*/
+    /*height: auto !;*/
+    width: 100%;
+}
+
+/*FOOTER*/
+footer {
+    position: absolute;
+    margin-top: -80px; /* negative value of footer height */
+    height: 80px;    
+    width: 100%;
+    padding-top: 65px;
+}
+
+#footer-1{
+    margin-top: 14px;
+    background-color: black;
+}
+#footer-2{
+    background-color: white;
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 10px;
+} 
+
+
+.footer-link{
+    margin-top: 5px;
+}
+
+
+/*LOCATION*/
+
+#location {
+    padding-top: 80px;
+}
+
+#map-canvas {
+    width: 50%;
+    height: 400px;
+    /*margin-bottom: 15px;*/
+    border: 2px solid #fff;
+    background-size: 100%;
+}
+
+#map-canvas2 {
+    width: 50%;
+    height: 400px;
+    /*margin-bottom: 15px;*/
+    border: 2px solid #fff;
+    background-size: 100%;
+}
+
+/*CONTACT*/
+#contact{
+    padding-top: 70px;
+}
+
+/*SERVICES*/
+#services_bookshop, #services_general, #home{
+    padding-top: 90px;
+}
+
+#services_general img{
+    height: 250px;
+    width: 100%;
+}
+
